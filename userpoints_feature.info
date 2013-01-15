@@ -1,0 +1,17 @@
+name = Userpoints_feature
+core = 7.x
+package = Features
+dependencies[] = comment
+dependencies[] = features
+dependencies[] = list
+dependencies[] = rules
+dependencies[] = taxonomy
+dependencies[] = userpoints
+dependencies[] = userpoints_rules
+features[features_api][] = api:1
+features[field][] = node-news-body
+features[field][] = node-news-field_status
+features[node][] = news
+features[rules_config][] = rules_userpoint_for_comment
+features[rules_config][] = rules_userpoint_for_content
+features[taxonomy][] = userpoints

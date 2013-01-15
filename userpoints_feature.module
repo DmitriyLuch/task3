@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Userpoints_feature feature.
+ */
+
+include_once 'userpoints_feature.features.inc';
